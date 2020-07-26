@@ -29,7 +29,7 @@
         <webdriver.base.url></webdriver.base.url>
     </properties>
 
-    <repositories>
+  <!--  <repositories>
         <repository>
             <snapshots>
                 <enabled>false</enabled>
@@ -48,7 +48,14 @@
             <name>bintray-plugins</name>
             <url>https://jcenter.bintray.com</url>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories> -->
+         <repositories>
+                  <repository>
+                   <id>localrepository</id>
+                    <url>C:/Users/A136276/.m2/repository</url>
+                  </repository>
+         </repositories>
+         
 
     <dependencies>
         <dependency>
